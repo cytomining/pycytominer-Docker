@@ -2,7 +2,9 @@ ARG version=master
 
 FROM python:3.8
 
-RUN apt-get install -y git
+RUN apt-get -y update
+
+RUN apt-get install -y git sqlite3
 
 RUN mkdir /workspace
 
