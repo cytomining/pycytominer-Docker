@@ -1,4 +1,4 @@
-ARG version=master
+ARG version=main
 
 FROM python:3.8
 
