@@ -2,7 +2,7 @@ user = cellprofiler
 org = cellprofiler
 project = pycytominer
 tag = latest
-version = master
+version = main
 
 .DEFAULT_GOAL: build
 build:
